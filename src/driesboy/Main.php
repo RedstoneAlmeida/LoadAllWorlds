@@ -18,4 +18,18 @@ class Main extends PluginBase{
 	$this->getServer()->loadLevel(plot);
 	$this->getServer()->loadLevel(Lobby);
 	}
+	          public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+                 switch($cmd->getName()) {
+                         case "loadworlds":
+                           // tellraw command
+                          if(count($args) < 1){
+                            $sender->sendMessage("§4Usage: /loadworld <world>");
+                            return true;
+                           } else {
+                            if($sender->hasPermission("loadallwords.command.allworlds")){
+                                 } else {
+                              }
+                            }
+                           }
+                 }
 	}
