@@ -5,6 +5,7 @@ namespace driesboy;
 use pocketmine\event\level\LevelLoadEvent;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
+use pocketmine\utils\TextFormat;
 
 
 class Main extends PluginBase{
