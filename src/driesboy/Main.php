@@ -7,7 +7,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 
 
-class Main extends PluginBase implements Listener{
+class Main extends PluginBase{
 
 	public function onEnable() {
 	$this->getServer()->getLogger()->info(TextFormat::BLUE . "LoadAllWorlds Has Been Enabled.");
